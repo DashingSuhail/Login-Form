@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="images/signup.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+    <div class="signup_first">
+        <img src="images/bg-img.jpg" alt="Background">
+    </div>
+    <div class="signup_second">
+      <div class="sign_up_image">
+        <img src="images/signup-img.jpg" alt="Background image" />
+      </div>
+      <div class="sign_up_container">
+        <div class="sign_up_heading">
+          <h1>Sign Up</h1>
+          <p>Register with your Email and Password</p>
+        </div>
+        <form
+          action="http://localhost:3000/sign_up"
+          method="post"
+          class="sign_up_form"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id=""
+            placeholder="Your Password"
+            max="8"
+            min="4"
+            required
+          />
+          <button type="submit" class="sign_up_button">Sign Up</button>
+        </form>
+        <p class="Login_para">
+          Already Registered? <a href="/login">Login Now</a>
+        </p>
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
