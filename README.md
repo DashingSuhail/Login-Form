@@ -49,5 +49,5 @@ Start the server
 
 ## Authors
 
-- [@DashingSuhail](https://www.github.com/octokatherine)
+- [@DashingSuhail](https://www.github.com/DashingSuhail)
 
